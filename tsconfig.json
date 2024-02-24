@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "module": "NodeNext",
+      "outDir": "./dist", // Output directory for transpiled JavaScript files
+      "rootDir": "./src", // Source directory for TypeScript files
+      "esModuleInterop": true,
+      "moduleResolution": "NodeNext",
+    "target": "ESNext",
+      "paths": {
+        "*": ["src/*"],
+        "sequelize-typescript": ["node_modules/sequelize-typescript/dist/sequelize-typescript"]
+      }
+    }
+}
